@@ -4,12 +4,11 @@
   box-sizing: border-box;
 }
 
-#header {
+nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
   background-color: darkgreen;
   color: white;
   padding: 10px;
@@ -19,15 +18,12 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  flex-direction: row;
 }
 nav a {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   padding: 5px;
-  justify-content: space-around;
-  align-items: end;
   color: white;
   text-decoration: black;
   transition: background-color 0.3s ease;
