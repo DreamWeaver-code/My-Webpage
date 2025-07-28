@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-nav {
+header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -20,7 +20,7 @@ nav {
   align-items: center;
   flex-direction: row;
 }
-nav a {
+header a {
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
@@ -37,7 +37,7 @@ nav a {
   text-align: center;
   margin: 20px;
 }
-nav a:hover {
+header a:hover {
   background-color: lightgreen;
 }
 #about {
@@ -55,3 +55,73 @@ nav h1 {
   font-size: 2em;
   margin-bottom: 10px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(1, 1, 1, 1.1);
+  transition: transform 0.3s ease;
+  border-color: darkgreen;
+  border-style: solid;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  background-color:beige;
+}
+.contact-form {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .contact-form h2 {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    .form-group input,
+    
+    .form-group textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .submit-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background-color: #45a049;
+    }
